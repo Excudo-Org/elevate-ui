@@ -1,5 +1,25 @@
-node_modules
+# dependencies
+/node_modules
 .yarn
 .yarnrc
 .yarnrc.yml
 # .changeset
+
+# testing
+/coverage
+
+# debug
+yarn-debug.log*
+yarn-error.log*
+
+# production
+/build
+
+.github
+
+# misc
+.DS_Store
+*.pem
+
+# typescript
+*.tsbuildinfo

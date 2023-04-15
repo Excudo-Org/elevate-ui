@@ -1,0 +1,5 @@
+name: PR
+
+on:
+  push:
+    branches: [main]
