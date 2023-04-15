@@ -1,0 +1,12 @@
+{
+  "name": "@elevate-ds/storybook",
+  "packageManager": "yarn@3.5.0",
+  "private": true,
+  "dependencies": {
+    "@elevate-ds/foundation": "workspace:^",
+    "@elevate-ds/react": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

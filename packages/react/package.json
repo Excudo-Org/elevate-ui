@@ -1,0 +1,15 @@
+{
+  "name": "@elevate-ds/react",
+  "packageManager": "yarn@3.5.0",
+  "version": "0.0.0",
+  "dependencies": {
+    "@elevate-ds/foundation": "workspace:^"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

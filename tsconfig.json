@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    // "target": "es5",
+    "module": "ESNext",
+    "allowJs": true,
+    "moduleResolution": "node",
+    // "outDir": "dist",
+    // "rootDir": "src",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "strictNullChecks": true,
+    "declaration": true,
+    "sourceMap": true,
+    "lib": ["esnext", "dom"],
+    "baseUrl": ".",
+    "paths": {
+      "@elevate-ds/*": ["packages/*/lib"]
+    }
+  },
+    // "include": ["packages/**/*"],
+    "exclude": ["node_modules", "dist", "packages/**/node_modules", "**/*.spec.ts", "**/*.spec.tsx", "**/*.test.*"]
+}

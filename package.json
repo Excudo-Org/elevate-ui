@@ -1,0 +1,12 @@
+{
+  "name": "elevate-ui",
+  "packageManager": "yarn@3.5.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "typescript": "^5.0.4"
+  }
+}
